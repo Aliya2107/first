@@ -1,0 +1,30 @@
+.projects {
+    background: #F6F6F8;
+    padding-top: 100px;
+    padding-bottom: 130px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #000000;
+        
+     }
+     &__text{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        margin: 50px 0 70px;
+      
+    
+    }
+    &__btn{
+        @include btn;
+        margin: 50px auto 0;
+    }
+    
+   
+    
+}

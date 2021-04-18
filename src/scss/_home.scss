@@ -1,0 +1,27 @@
+.home {
+    background: url(../images/Rectangle.png) center center/cover no-repeat;
+    padding-top: 319px;
+    padding-bottom: 335px;
+
+    &__title {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 500px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        margin-bottom: 50px;
+        font-weight: 800px;
+        line-height: 64px;
+    }
+
+    &__btn {
+        @include btn;
+        margin: 0 auto;
+    }
+}

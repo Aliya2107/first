@@ -1,0 +1,21 @@
+@import url(../libs/bootstrap/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css);
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+@import"../scss/variables";
+@import"../scss/header.scss";
+@import"../scss/home";
+@import"../scss/services";
+@import"../scss/about-us";
+@import"../scss/all-projects";
+@import"../scss/projects";
+@import"../scss/video";
+@import"../scss/subscribe";
+@import"../scss/media";
+@import"../scss/footer";
